@@ -1,0 +1,36 @@
+/* Theme */
+:root {
+  --theme-hue: 204;
+  --theme-saturation: 85%;
+  --theme-lightness: 50%;
+}
+
+/* Sidebar */
+:root {
+  --sidebar-nav-indent: 0.7em;
+  --sidebar-nav-pagelink-padding: 0.6em 0 0.6em 20px;
+  --sidebar-name-font-weight: normal;
+}
+
+/* Sidebar again */
+.sidebar-nav {
+  font-size: 0.9em;
+}
+
+/* Code block */
+:root {
+  --code-font-size: calc(var(--font-size-m) * 0.9)
+}
+
+/* Image styling */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
