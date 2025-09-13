@@ -13,8 +13,30 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: '程序设计基础在线文档',
+      repo: 'https://github.com/dmx20070206/ustb-programming',
+      loadSidebar: 'toc.md',
+      subMaxLevel: 3,
+      search: {
+        paths: 'auto',
+        placeholder: '搜索文档内容'
+      },
+      loadFooter: 'footer.md',
+      auto2top: true,
+      customPageTitle: {
+        suffix: '程序设计基础在线文档'
+      },
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      copyCode: {
+        buttonText : '复制',
+        errorText  : '错误',
+        successText: '已复制'
+      }
     }
   </script>
   <!-- Docsify v4 -->
