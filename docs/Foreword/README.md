@@ -27,8 +27,8 @@
 
 # 关于AI使用
 
-我
+>我说AI真好用，你尔多隆吗
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mjc0ODAzMCw1Mjc2NDEyMzJdfQ==
+eyJoaXN0b3J5IjpbNjA4NDI2MzI1LDUyNzY0MTIzMl19
 -->
