@@ -31,10 +31,10 @@
 
 怎么说呢，ai这个东西大家之前肯定用过，但可能没用来写过代码，因为目前还没有遇到比较困难的题目，当遇到难题就可能去寻求ai的帮助了，然后用了一次就像毒品一样戒不掉了（
 
-现在的ai发展真是快的离谱了，用ai写代码，尤其是这种本科课程相当于
+现在的ai发展真是快的离谱了，用ai写代码，尤其是这种本科课程，相当于借到了持续时间无限的维什戴尔，
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzAyMTA2NjIsNjA4NDI2MzI1LDUyNz
-Y0MTIzMl19
+eyJoaXN0b3J5IjpbMTYyMTI0MTMyMSw2MDg0MjYzMjUsNTI3Nj
+QxMjMyXX0=
 -->
