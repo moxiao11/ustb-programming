@@ -1,5 +1,10 @@
 # 前言
 
+>课程介绍
+
+本课程是大家初步r
+
+
 > 学术诚信远比课程实践本身重要.
 
 开始课程前, 我们需要明确以下原则:
@@ -12,5 +17,5 @@
 
 对于雷同现象严重者, 课程组在调查后有权将情况上报至教务, 并按相关规定进行进一步的严肃处理.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NjQxMjMyXX0=
+eyJoaXN0b3J5IjpbLTk0MTQ2NzA3OCw1Mjc2NDEyMzJdfQ==
 -->
