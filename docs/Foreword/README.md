@@ -28,9 +28,10 @@
 # 关于AI使用
 
 >我说AI真好用，你尔多隆吗
->
+
+怎么说呢，ai这个东西大家之前肯定用过，但可能没用来写过代码，因为目前还没有遇到比较困难的ti'mu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTgwNDAwNDksNjA4NDI2MzI1LDUyNz
-Y0MTIzMl19
+eyJoaXN0b3J5IjpbNTk5MzQwNTk1LDYwODQyNjMyNSw1Mjc2ND
+EyMzJdfQ==
 -->
