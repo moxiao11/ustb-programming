@@ -29,9 +29,10 @@
 
 >我说AI真好用，你尔多隆吗
 
-怎么说呢，ai这个东西大家之前肯定用过，但可能没用来写过代码，因为目前还没有遇到比较困难的题目，当你遇到难题了，
+怎么说呢，ai这个东西大家之前肯定用过，但可能没用来写过代码，因为目前还没有遇到比较困难的题目，当遇到难题就可能去寻求ai的帮助了，然后用了一次就像毒品一样戒不掉了（
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODQ0NDgzMSw2MDg0MjYzMjUsNTI3Nj
+eyJoaXN0b3J5IjpbLTg4MTY4ODY1MCw2MDg0MjYzMjUsNTI3Nj
 QxMjMyXX0=
 -->
