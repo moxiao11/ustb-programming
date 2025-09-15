@@ -35,10 +35,12 @@
 
 事实上你并没有学到什么，并且还浪费了写作业的时间，ai能用，但肯定不是这么用的，当我们遇到了思考不出来的问题，可以去问ai，但是不要直接抄题解，你可以让他分析这道题目，并且让他把解题过程给你写出来，并且看完了题解思路也尽量不要直接复制过来，比较好的方法是看完题解之后自己再写一遍，这样虽然耗点时间但是掌握肯定更深刻。
 
-关于大模型种类的选择，我放在了AI使用的文档中，ke
+关于大模型种类的选择，我放在了AI使用的文档中，可以移步阅读。
+
+# 关于提问
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzOTE2MTQ3LDE2MTM3NjgxMzgsLTEwMj
-Y0MDczMDQsNjA4NDI2MzI1LDUyNzY0MTIzMl19
+eyJoaXN0b3J5IjpbMTA4Nzg3MjY5NywxNjEzNzY4MTM4LC0xMD
+I2NDA3MzA0LDYwODQyNjMyNSw1Mjc2NDEyMzJdfQ==
 -->
