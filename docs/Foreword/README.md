@@ -11,9 +11,9 @@
     
 3.  学会分析问题并把问题转换为可执行的程序语言。
 
+# 抄袭问题
 
-
-> 学术诚信远比课程实践本身重要.
+> 学术诚信远比课程本身重要.
 
 开始课程前, 我们需要明确以下原则:
 
@@ -25,7 +25,10 @@
 
 对于雷同现象严重者, 课程组在调查后有权将情况上报至教务, 并按相关规定进行进一步的严肃处理.
 
+# 关于AI使用
+
+我
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE1ODc0NSw1Mjc2NDEyMzJdfQ==
+eyJoaXN0b3J5IjpbMTk0Mjc0ODAzMCw1Mjc2NDEyMzJdfQ==
 -->
