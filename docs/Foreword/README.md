@@ -31,8 +31,10 @@
 
 怎么说呢，ai这个东西大家之前肯定用过，但可能没用来写过代码，因为目前还没有遇到比较困难的题目，当遇到难题就可能去寻求ai的帮助了，然后用了一次就像毒品一样戒不掉了（
 
+现在的ai发展真是快的离谱了，xie
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTY4ODY1MCw2MDg0MjYzMjUsNTI3Nj
+eyJoaXN0b3J5IjpbLTc4NDE3NjQyMSw2MDg0MjYzMjUsNTI3Nj
 QxMjMyXX0=
 -->
