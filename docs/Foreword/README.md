@@ -46,10 +46,10 @@
 # 评分标准
 测试用例过了就给分，有警告或者格式错误大部分不用管，只要给你分了就行
 # 如何学好C++
-
+首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgxMDA4MjYsMTgwMDI0MzA5OSw3MD
-c0NTgyMTQsMzUxNTY4MzYxLC0xMDA1MzU5MDMxLDEwODc4NzI2
-OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNCw2MDg0MjYzMjUsNT
-I3NjQxMjMyXX0=
+eyJoaXN0b3J5IjpbLTIxMjE1Mjk3LC0xMjg4MTAwODI2LDE4MD
+AyNDMwOTksNzA3NDU4MjE0LDM1MTU2ODM2MSwtMTAwNTM1OTAz
+MSwxMDg3ODcyNjk3LDE2MTM3NjgxMzgsLTEwMjY0MDczMDQsNj
+A4NDI2MzI1LDUyNzY0MTIzMl19
 -->
