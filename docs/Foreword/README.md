@@ -46,10 +46,10 @@
 # 评分标准
 测试用例过了就给分，有警告或者格式错误大部分不用管，只要给你分了就行
 # 如何学好C++
-首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，
+首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，如果你只是想毕业，及格万岁，那建议转去材料，北科的材料专业dao'yi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE1Mjk3LC0xMjg4MTAwODI2LDE4MD
-AyNDMwOTksNzA3NDU4MjE0LDM1MTU2ODM2MSwtMTAwNTM1OTAz
-MSwxMDg3ODcyNjk3LDE2MTM3NjgxMzgsLTEwMjY0MDczMDQsNj
-A4NDI2MzI1LDUyNzY0MTIzMl19
+eyJoaXN0b3J5IjpbLTE2NTk2Mzg4NjAsLTEyODgxMDA4MjYsMT
+gwMDI0MzA5OSw3MDc0NTgyMTQsMzUxNTY4MzYxLC0xMDA1MzU5
+MDMxLDEwODc4NzI2OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNC
+w2MDg0MjYzMjUsNTI3NjQxMjMyXX0=
 -->
