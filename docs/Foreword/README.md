@@ -38,13 +38,14 @@
 关于大模型种类的选择，我放在了AI使用的文档中，可以移步阅读。
 
 # 关于提问
-遇到不会，不懂的东西，首先问ai，像是那种报错，编译不通过，代码输出错误之类的问题ai大部分都能解决，你问完ai之后，还看不懂，你再来问助教，我拿到一个问题之后，首先就会尝试抛给ai。其次，学会截图和复制，电脑代码出问题不要拿手机拍照给我，很糊，有摩尔纹看不清，电脑有一堆截图工具供你使用，还有不要抛一个冗长的代码截图给我然后问我输出错了怎么改，这种
+遇到不会，不懂的东西，首先问ai，像是那种报错，编译不通过，代码输出错误之类的问题ai大部分都能解决，你问完ai之后，还看不懂，你再来问助教，我拿到一个问题之后，首先就会尝试抛给ai。其次，学会截图和复制，电脑代码出问题不要拿手机拍照给我，很糊，有摩尔纹看不清，电脑有一堆截图工具供你使用
 <p align="center">
   <img src="/imgs/2025-09-16/R0a4ylVxPuhWs5Fp.png" alt="输入图片说明" width="320" />
 </p>
+还有不要抛一个冗长的代码截图给我然后问我输出错了怎么改，这种问题是最应该麻烦ai的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjg0NDI1NSwzNTE1NjgzNjEsLTEwMD
-UzNTkwMzEsMTA4Nzg3MjY5NywxNjEzNzY4MTM4LC0xMDI2NDA3
-MzA0LDYwODQyNjMyNSw1Mjc2NDEyMzJdfQ==
+eyJoaXN0b3J5IjpbNzA3NDU4MjE0LDM1MTU2ODM2MSwtMTAwNT
+M1OTAzMSwxMDg3ODcyNjk3LDE2MTM3NjgxMzgsLTEwMjY0MDcz
+MDQsNjA4NDI2MzI1LDUyNzY0MTIzMl19
 -->
