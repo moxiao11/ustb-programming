@@ -38,10 +38,10 @@
 关于大模型种类的选择，我放在了AI使用的文档中，可以移步阅读。
 
 # 关于提问
-遇到不会，不懂的东西，首先问ai，像是那种报错，编译不通过，代码输出错误之类的问题ai大部分都能解决，你问完ai之后，还看不懂，你再来问助教，我拿到一个问题之后，首先就判断ai是否能解决。其次，学会截图和复制，电脑代码出问题不要拿手机拍照给我，很糊，有mo
+遇到不会，不懂的东西，首先问ai，像是那种报错，编译不通过，代码输出错误之类的问题ai大部分都能解决，你问完ai之后，还看不懂，你再来问助教，我拿到一个问题之后，首先就判断ai是否能解决。其次，学会截图和复制，电脑代码出问题不要拿手机拍照给我，很糊，有摩尔纹看不清，电脑有一堆截图工具
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU1NDk0MzEsMTA4Nzg3MjY5NywxNj
+eyJoaXN0b3J5IjpbLTEwMDUzNTkwMzEsMTA4Nzg3MjY5NywxNj
 EzNzY4MTM4LC0xMDI2NDA3MzA0LDYwODQyNjMyNSw1Mjc2NDEy
 MzJdfQ==
 -->
