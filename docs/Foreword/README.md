@@ -43,9 +43,11 @@
   <img src="/imgs/2025-09-16/R0a4ylVxPuhWs5Fp.png" alt="输入图片说明" width="320" />
 </p>
 
-
+# 评分标准
+测试用例过了就给分
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDI0MzA5OSw3MDc0NTgyMTQsMzUxNT
-Y4MzYxLC0xMDA1MzU5MDMxLDEwODc4NzI2OTcsMTYxMzc2ODEz
-OCwtMTAyNjQwNzMwNCw2MDg0MjYzMjUsNTI3NjQxMjMyXX0=
+eyJoaXN0b3J5IjpbMTM1ODAwNTM5OSwxODAwMjQzMDk5LDcwNz
+Q1ODIxNCwzNTE1NjgzNjEsLTEwMDUzNTkwMzEsMTA4Nzg3MjY5
+NywxNjEzNzY4MTM4LC0xMDI2NDA3MzA0LDYwODQyNjMyNSw1Mj
+c2NDEyMzJdfQ==
 -->
