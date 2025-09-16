@@ -48,10 +48,10 @@
 # 如何学好C++
 首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，如果你只是想毕业，及格万岁，那建议转去材料，北科的材料专业倒一都有人要，计算机的话包找不到工作的。那如果我就要吃计算机这口饭怎么办呢？因为我现在才大二，也看不到太往后的东西，就我目前的经验来看，大一可以先多探索，尝试，找到自己喜欢的方向，比如系统能力，机器学习，算法，游戏开发之类的，大一的课程会涉及到很多方向，找到方向之后，专精那一个方向的学习，同时看看有没有什么比赛可以参加的，大二之后就可以多参加比赛或者联系导师找项目做，不管是对你个人能力的提升或者是丰富你简历的内容都有很大的帮助。
 
-那平时学习怎么办呢？就像我上面说的，遇到问题先思考，思考不会问ai，懂得自我学习，把ai当驴使，
+那平时学习怎么办呢？就像我上面说的，遇到问题先思考，思考不会问ai，懂得自我学习，把ai当驴使，课余时间可以去b站找找自己感兴趣方向的shi'p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDY5MDcyNCwtMTI4ODEwMDgyNiwxOD
-AwMjQzMDk5LDcwNzQ1ODIxNCwzNTE1NjgzNjEsLTEwMDUzNTkw
-MzEsMTA4Nzg3MjY5NywxNjEzNzY4MTM4LC0xMDI2NDA3MzA0LD
-YwODQyNjMyNSw1Mjc2NDEyMzJdfQ==
+eyJoaXN0b3J5IjpbNDM5NzYzMzM1LC03NTQ2OTA3MjQsLTEyOD
+gxMDA4MjYsMTgwMDI0MzA5OSw3MDc0NTgyMTQsMzUxNTY4MzYx
+LC0xMDA1MzU5MDMxLDEwODc4NzI2OTcsMTYxMzc2ODEzOCwtMT
+AyNjQwNzMwNCw2MDg0MjYzMjUsNTI3NjQxMjMyXX0=
 -->
