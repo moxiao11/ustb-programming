@@ -44,9 +44,11 @@
 </p>
 
 # 评分标准
-测试用例过了就给分，有警告或者格式错误不用管，只要给你分了就行
+测试用例过了就给分，有警告或者格式错误大部分不用管，只要给你分了就行
+# 如何学好C++
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI4MjE0NDEsMTgwMDI0MzA5OSw3MD
+eyJoaXN0b3J5IjpbLTEyODgxMDA4MjYsMTgwMDI0MzA5OSw3MD
 c0NTgyMTQsMzUxNTY4MzYxLC0xMDA1MzU5MDMxLDEwODc4NzI2
 OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNCw2MDg0MjYzMjUsNT
 I3NjQxMjMyXX0=
