@@ -42,10 +42,10 @@
 <p align="center">
   <img src="/imgs/2025-09-16/R0a4ylVxPuhWs5Fp.png" alt="输入图片说明" width="320" />
 </p>
-还有不要抛一个冗长的代码截图给我然后问我输出错了怎么改，这种问题是最应该麻烦ai的
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDU4MjE0LDM1MTU2ODM2MSwtMTAwNT
-M1OTAzMSwxMDg3ODcyNjk3LDE2MTM3NjgxMzgsLTEwMjY0MDcz
-MDQsNjA4NDI2MzI1LDUyNzY0MTIzMl19
+eyJoaXN0b3J5IjpbMTgwMDI0MzA5OSw3MDc0NTgyMTQsMzUxNT
+Y4MzYxLC0xMDA1MzU5MDMxLDEwODc4NzI2OTcsMTYxMzc2ODEz
+OCwtMTAyNjQwNzMwNCw2MDg0MjYzMjUsNTI3NjQxMjMyXX0=
 -->
