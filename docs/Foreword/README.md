@@ -46,10 +46,10 @@
 # 评分标准
 测试用例过了就给分，有警告或者格式错误大部分不用管，只要给你分了就行
 # 如何学好C++
-首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，如果你只是想毕业，及格万岁，那建议转去材料，北科的材料专业倒一都有人要，计算机的话包找不到工作的。那如果我就要吃计算机这口饭怎么办呢？就我目前的视野来看，因为我现在才大二，也看不到太往后的东西，
+首先如果你要靠计算机来吃饭，那学校教给你的东西肯定是不够的，如果你只是想毕业，及格万岁，那建议转去材料，北科的材料专业倒一都有人要，计算机的话包找不到工作的。那如果我就要吃计算机这口饭怎么办呢？因为我现在才大二，也看不到太往后的东西，就我目前的经验来看，大一可以先多探索，尝试，找到自己喜欢的方向，比如系统能力，或者算法竞赛之类的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM2MjgwNDMsLTEyODgxMDA4MjYsMT
-gwMDI0MzA5OSw3MDc0NTgyMTQsMzUxNTY4MzYxLC0xMDA1MzU5
-MDMxLDEwODc4NzI2OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNC
-w2MDg0MjYzMjUsNTI3NjQxMjMyXX0=
+eyJoaXN0b3J5IjpbMzgzMjI1OTYsLTEyODgxMDA4MjYsMTgwMD
+I0MzA5OSw3MDc0NTgyMTQsMzUxNTY4MzYxLC0xMDA1MzU5MDMx
+LDEwODc4NzI2OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNCw2MD
+g0MjYzMjUsNTI3NjQxMjMyXX0=
 -->
