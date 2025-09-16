@@ -39,9 +39,10 @@
 
 # 关于提问
 遇到不会，不懂的东西，首先问ai，像是那种报错，编译不通过，代码输出错误之类的问题ai大部分都能解决，你问完ai之后，还看不懂，你再来问助教，我拿到一个问题之后，首先就判断ai是否能解决。其次，学会截图和复制，电脑代码出问题不要拿手机拍照给我，很糊，有摩尔纹看不清，电脑有一堆截图工具
-![输入图片说明](/imgs/2025-09-16/R0a4ylVxPuhWs5Fp.png)
+![输入图片说明](/imgs/2025-09-16/R0a4ylVxPuhWs5Fp.png =250x200)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxNTY4MzYxLC0xMDA1MzU5MDMxLDEwOD
-c4NzI2OTcsMTYxMzc2ODEzOCwtMTAyNjQwNzMwNCw2MDg0MjYz
-MjUsNTI3NjQxMjMyXX0=
+eyJoaXN0b3J5IjpbLTgxNzkxMzEzNSwzNTE1NjgzNjEsLTEwMD
+UzNTkwMzEsMTA4Nzg3MjY5NywxNjEzNzY4MTM4LC0xMDI2NDA3
+MzA0LDYwODQyNjMyNSw1Mjc2NDEyMzJdfQ==
 -->
