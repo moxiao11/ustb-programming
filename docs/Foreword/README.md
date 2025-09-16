@@ -38,9 +38,10 @@
 关于大模型种类的选择，我放在了AI使用的文档中，可以移步阅读。
 
 # 关于提问
-
+遇到不会，不懂的东西，首先问ai，像是那种报错，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzg3MjY5NywxNjEzNzY4MTM4LC0xMD
-I2NDA3MzA0LDYwODQyNjMyNSw1Mjc2NDEyMzJdfQ==
+eyJoaXN0b3J5IjpbMTMxMDYwODgwMywxMDg3ODcyNjk3LDE2MT
+M3NjgxMzgsLTEwMjY0MDczMDQsNjA4NDI2MzI1LDUyNzY0MTIz
+Ml19
 -->
