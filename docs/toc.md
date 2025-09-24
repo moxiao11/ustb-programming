@@ -1,4 +1,4 @@
-* [前言](lecturer-recruitment)
+* [前言](Foreword/README.md)
 * [CG每周练习题](exercise)
   * [知识总结](exercise/knowledge.md)
   * [关键题解](exercise/key_problems.md)
@@ -6,5 +6,5 @@
 * [讲师风采](lecture-style)
 * [讲师招募](lecture-recruitment)
 * [基础知识库](knowledge_base)
-  * [IDE安装](knowledge_base/IDE-install.md)
+  * [IDE安装](knowledge_base/IDE.md)
 * [后记](afterword)
