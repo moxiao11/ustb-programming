@@ -21,7 +21,7 @@
     * make : 生成文件名.exe
     * 运行文件：./文件名.exe
 - 工具使用
-  * 记笔记 : markdown, latex
+  * 记笔记 : markdown, latex(vscode , overleaf)
     * markdown: 比较简单,pdf
     * latex : 实验文件,pdf
   * 浏览器 : 谷歌浏览器
@@ -29,8 +29,8 @@
     * LinkedList: 链表 ,抽象的ai：连接起来的列表;
   * 翻墙 
     * chatgpt 
-    * youtube
-    * stackoverflow
+    * youtube 
+    * stackoverflow, CSDN 
     * 维基百科
 
 - IDE
@@ -55,7 +55,7 @@ int main()
 
 - 头文件 : 常用的头文件 <iomanip>
 - 标准命名空间 : std 类比chrono   
-- main() :加入 int argc ,string argv[]; 
+- main()
 - return 0 : 使用echo 
 ### 使用一些新用法
 
@@ -106,3 +106,50 @@ int main() {
 - constexpr替换const定义变量.
 - define的时候最好的方式是加上括号.(与计算机的立即数有关)
 - 代码格式上请不要将结果暴露在输出语句中，而是封装.
+
+
+# Week 8
+
+* 思维导图
+  * 体会封装的思想
+  
+  ![标准C++](../assets/img/image.png)
+
+
+* Uniform Initialization统一初始化 // 赋值语句
+```c++
+int a {3} ; 
+string str{"sdaa"} ;
+```
+* auto关键字 //赋值语句
+
+```c++ ;
+auto b = 4323;
+auto str = "sgdkjdkl" ;
+```
+  * 尾置推导类型
+  ```c++
+  auto add(int a ,int b) -> int {
+    return a + b ;
+  }
+  ```
+* make_pair(value,value)   // 返回两个
+```c++
+auto c = make_pair(3 ,4);
+cout << c.first <<  " " << c.second << endl;
+auto add(int a ,int b){
+  return make_pair(a + b , a - b) ;
+}
+```
+* 结构化绑定 // C++ 17 函数返回值
+```c++
+auto [b , c] = add(3,4); 
+cout << b << " " << c << endl ; 
+```
+* INT 上限 -2147483648 ~ 2147483647
+
+## Week 10 
+
+* 基于范围的for循环遍历
+
+* using 和 typedef 关键字的使用
