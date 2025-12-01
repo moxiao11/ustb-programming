@@ -44,9 +44,8 @@
 * 不要拿AI写的东西来进行提问，要有自己的思考。
 * 不要用手机进行拍照，模糊，要学会使用截图工具，有很多好用的截图软件。
 
-<p align="center">
-  <img src="../assets/img/Foreword/R0a4ylVxPuhWs5Fp.png" alt="输入图片说明" width="320" />
-</p>
+![](../assets/img/Foreword/R0a4ylVxPuhWs5Fp.png)
+
 
 * 提问的时候，包括代码 + 自己的理解 + 报错信息（如果代码连跑都跑不起来）
 

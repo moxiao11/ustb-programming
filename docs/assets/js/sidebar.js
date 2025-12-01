@@ -1,8 +1,3 @@
-/**
- * Docsify Sidebar Smooth Sync Plugin
- * 侧边栏平滑滚动同步插件 - 优化版
- */
-
 const scrollBarSyncPlugin = (hook, vm) => {
   // 页面加载完成后执行
   hook.doneEach(() => {

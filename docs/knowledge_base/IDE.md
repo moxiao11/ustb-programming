@@ -12,7 +12,6 @@ mingw中的GCC是编译c语言的，g++是编译c++的。
 
 有个极简办法，windows系统下有个叫scoop的工具,在开始页面搜索powershell，然后输入scoop install mingw其实就o了，我也推荐另一个叫make的编译工具，scoop install make就可以安装了
 ![](../assets/img/IDE/1.jpg)
-
 ![](../assets/img/IDE/2.jpg)
 
 这个mingw可以看成一个工具包，里面有gcc，g++，还有一大堆东西，这个装可能会装很多环境，导致你不知道里面有点啥，但是未来可能某个时候就用上了
