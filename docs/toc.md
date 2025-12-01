@@ -1,6 +1,7 @@
 * [前言](Foreword/README.md)
 * [练习题](exercise)
   * [cg题解](<exercise/cg solution>)
+    * [Week 8](<exercise/cg solution/Week 8.md>)
     * [Week 9](<exercise/cg solution/Week 9.md>)
   * [知识总结](exercise/knowledge.md)
   * [关键题解](exercise/key_problems.md)
