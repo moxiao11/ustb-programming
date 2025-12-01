@@ -1,5 +1,5 @@
 * [前言](Foreword/README.md)
-* [练习题](exercise)
+* [练习题](exercise/exercise.md)
   * [cg题解](<exercise/cg solution>)
     * [Week 8](<exercise/cg solution/Week 8.md>)
     * [Week 9](<exercise/cg solution/Week 9.md>)

@@ -2,30 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>程序设计基础</title>
+  <title>程序设计基础 | 在线文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="程序设计基础课程文档">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- 1. 引入 Google Fonts 字体，配合 CSS 提升质感 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="assets/css/main.css">
+  
+  <!-- 3. 引入我们的“极光毛玻璃”主题 (style.css) 
+       注意：请确保你的 style.css 文件路径正确 -->
+  <link rel="stylesheet" href="assets/css/main.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrFXgYdJ5/uK6f5fK3P/1k5p5D/VjJd5K4B3/W2l4D+o+l9wK8/H3T1E/P6C1J9P" crossorigin="anonymous">
+  <style>
+    /* 修复 Docsify 默认加载时的闪烁问题 */
+    .app-nav { position: fixed; margin: 0; }
+  </style>
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">加载中...</div>
+  
   <script>
     window.$docsify = {
-      name: '程序设计基础在线文档',
+      name: '<span>程序设计基础</span>', // 支持 HTML 标签
       repo: 'https://github.com/dmx20070206/ustb-programming',
       loadSidebar: 'toc.md',
       subMaxLevel: 3,
       search: {
         paths: 'auto',
-        placeholder: '搜索文档内容'
+        placeholder: '🔍 搜索文档...',
+        noData: '😒 找不到结果',
+        depth: 6
       },
       loadFooter: 'footer.md',
       auto2top: true,
       customPageTitle: {
-        suffix: '程序设计基础在线文档'
+        suffix: ' - 程序设计基础'
       },
       pagination: {
         previousText: '上一章节',
@@ -40,8 +57,17 @@
       }
     }
   </script>
+  
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- 插件引入 -->
+   
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- 引入优化后的侧边栏 JS -->
   <script src="assets/js/sidebar.js"></script>
 </body>
-</html> 
+</html>

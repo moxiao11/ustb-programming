@@ -1,131 +1,363 @@
-/* 全局主题色*/
+/*
+ * 极光毛玻璃主题 (Aurora Glass Theme)
+ * 核心理念：通透、流体渐变、Mac风格窗口、微交互
+ */
+
+/* ------------------------------------------------------------------
+  1. 全局变量定义 (Design Tokens)
+  ------------------------------------------------------------------ */
 :root {
-  --theme-hue: 206;
-  --theme-saturation: 70%;
-  --theme-lightness: 55%;
+  /* 品牌色：极光渐变 */
+  --brand-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --brand-color: #6a67ce;
+  
+  /* 功能色 */
+  --accent-color: #ff0080; /* 用于强调的小点缀 */
+  --success-color: #00b894;
+  
+  /* 背景体系 */
+  --bg-body: #f3f5f9; /* 更加灰阶冷淡的背景 */
+  --bg-glass: rgba(255, 255, 255, 0.85); /* 毛玻璃背景色 */
+  /* 【优化】代码背景改为深邃的蓝黑渐变 */
+  --bg-code: linear-gradient(135deg, #121c2c 0%, #1e1e1e 100%);
 
-  --bg-color: #f7f9fc;
-  --sidebar-bg: #ffffff;
-  --card-bg: #ffffff;
-  --text-color: #1a1a1a;
-  --text-light: #555;
+  /* 文本体系 */
+  --text-main: #2d3748;
+  --text-secondary: #718096;
+  --text-heading: #1a202c;
 
-  --radius: 12px;
-  --shadow: 0 4px 12px rgba(0,0,0,0.08);
+  /* 阴影体系 (更柔和、扩散) */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.02);
+  --shadow-md: 0 8px 30px rgba(0,0,0,0.04);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,0.08);
+  --shadow-glow: 0 0 20px rgba(118, 75, 162, 0.2); /* 品牌色发光 */
+
+  /* 倒角 */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
 }
 
-   /*页面背景 + 全局字体*/
+/* ------------------------------------------------------------------
+  2. 基础排版与背景
+  ------------------------------------------------------------------ */
 body {
-  background: var(--bg-color);
-  color: var(--text-color);
-  font-family: "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
+  background-color: var(--bg-body);
+  /* 顶部添加一条精致的渐变装饰线 */
+  background-image: linear-gradient(to right, #667eea, #764ba2);
+  background-repeat: no-repeat;
+  background-size: 100% 4px;
+  
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased; /* 让字体在Mac上更清晰 */
+  line-height: 1.7;
 }
 
-/*左侧侧边栏*/
+/* ------------------------------------------------------------------
+  3. 侧边栏 (Sidebar) - 悬浮毛玻璃风格
+  ------------------------------------------------------------------ */
 .sidebar {
-  background: var(--sidebar-bg);
-  box-shadow: var(--shadow);
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px); /* 核心：毛玻璃模糊 */
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow-md);
+  margin: 20px;
+  height: calc(100vh - 40px); /* 悬浮式侧边栏 */
+  border-radius: var(--radius-md);
+  width: 300px; /* 稍微加宽侧边栏以适应内容 */
+}
+
+/* 【新增】应用名称样式 */
+.sidebar h1.app-name {
+    padding: 20px 20px 0 32px; /* 与内容对齐 */
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-heading);
+    letter-spacing: -0.05em;
+    text-shadow: 0 1px 3px rgba(106, 103, 206, 0.1); /* 浅浅的品牌色阴影 */
 }
 
 .sidebar-nav {
-  font-size: 0.95em;
+    padding: 20px 0;
 }
 
 .sidebar ul li a {
-  padding: 0.55em 0.8em;
-  border-radius: var(--radius);
-  transition: background 0.2s ease;
+  color: var(--text-secondary);
+  padding: 10px 18px;
+  margin: 4px 12px;
+  border-radius: var(--radius-sm);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  display: block; /* 确保占满宽度 */
+  text-decoration: none;
 }
 
 .sidebar ul li a:hover {
-  background: hsla(var(--theme-hue), 80%, 90%, 0.7);
+  background: rgba(102, 126, 234, 0.08);
+  color: var(--brand-color);
+  transform: translateX(3px);
+  text-decoration: none;
 }
 
+/* 激活状态：左侧指示条风格 */
 .sidebar ul li.active > a {
-  background: hsla(var(--theme-hue), 80%, 70%, 0.9);
-  color: white !important;
-  font-weight: bold;
+  background: white;
+  color: var(--brand-color) !important;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-color: rgba(102, 126, 234, 0.1);
+  
+  /* 【增强】添加一个明显的左侧指示条 */
+  border-left: 4px solid var(--brand-color) !important;
+  padding-left: 14px; /* 调整内边距以适应新的边框宽度 */
 }
 
-/* 文档标题渐变 */
+/* 侧边栏标题 */
+.sidebar-nav > ul > li > span {
+    color: var(--text-heading);
+    font-weight: 700;
+    padding: 0 15px;
+    margin-top: 15px;
+    display: block;
+}
+
+/* ------------------------------------------------------------------
+  4. 主内容区 (Main Content)
+  ------------------------------------------------------------------ */
+.content {
+    padding-top: 0; /* 修正顶部间距 */
+}
+
+.markdown-section {
+  background: white;
+  /* 【微调】增加右侧内边距，让内容更居中 */
+  margin: 20px 20px 20px 0; 
+  padding: 60px 80px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  min-height: calc(100vh - 40px);
+  max-width: 1000px; /* 限制最大阅读宽度 */
+}
+
+/* 标题设计 */
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3 {
-  background: linear-gradient(
-    90deg,
-    hsl(var(--theme-hue), var(--theme-saturation), 45%),
-    hsl(var(--theme-hue), var(--theme-saturation), 65%)
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  color: var(--text-heading);
+  letter-spacing: -0.02em; /* 紧凑字间距，更现代 */
+  margin-top: 2em;
   font-weight: 700;
 }
 
-/* 卡片式内容区域*/
-.markdown-section {
-  background: var(--card-bg);
-  padding: 45px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  margin-top: 30px;
+.markdown-section h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  /* 标题渐变填充 */
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
-/* 图片美化 */
-img {
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  margin: 20px 0;
+.markdown-section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid rgba(118, 75, 162, 0.1);
+  padding-bottom: 0.5rem;
+  position: relative;
 }
 
-img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+/* h2 下方的装饰短线 */
+.markdown-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--brand-gradient);
+  border-radius: 2px;
 }
 
-/* 代码块美化 */
-pre code {
-  border-radius: var(--radius);
-  font-size: 0.9em;
-}
-
+/* ------------------------------------------------------------------
+  5. Mac 风格代码块 (Highlight)
+  ------------------------------------------------------------------ */
 pre {
-  color: #f1f1f1;
-  border:none !important;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  border-radius: var(--radius-md);
+  padding-top: 45px !important; /* 为顶部按钮留出空间 */
+  padding-bottom: 20px !important;
+  padding-left: 20px !important;
+  position: relative;
+  margin: 30px 0;
 }
+
+pre::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff5f56; 
+  box-shadow: 18px 0 0 #ffbd2e, 36px 0 0 #27c93f; 
+}
+
+pre code {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  /* 确保代码颜色在深色背景下是可见的白色，使用默认高亮 */
+}
+
 
 /* 行内代码 */
 p code {
-  background: hsla(var(--theme-hue), 80%, 90%, 0.5);
-  padding: 3px 6px;
-  border-radius: 5px;
-  color: #d6336c;
+  color: var(--brand-color);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  vertical-align: middle;
 }
 
-/* 表格美化 */
+/* ------------------------------------------------------------------
+  6. 精致组件 (图片、引用、链接)
+  ------------------------------------------------------------------ */
+
+/* 图片：悬浮提升效果 */
+img {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: block;
+  margin: 40px auto;
+  max-width: 95%;
+}
+
+img:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* 引用块：玻璃质感 */
+blockquote {
+  background: #f8f9fc;
+  /* 【保持】强制去掉 Docsify Vue 主题自带的左边框，解决冲突 */
+  border-left: none !important; 
+  padding: 24px 32px;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  position: relative;
+  margin: 30px 0;
+  font-style: normal;
+  box-shadow: inset 4px 0 0 var(--brand-color); /* 内嵌指示条 */
+}
+
+blockquote::before {
+  content: '"';
+  font-family: serif;
+  font-size: 4rem;
+  color: rgba(102, 126, 234, 0.15);
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+/* 链接：下划线动画 */
+.markdown-section a {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-weight: 600;
+  background-image: linear-gradient(120deg, rgba(102, 126, 234, 0.2) 0%, rgba(102, 126, 234, 0.2) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 30%;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  padding: 0 2px;
+}
+
+.markdown-section a:hover {
+  background-size: 100% 100%; /* 鼠标悬停时背景填满 */
+  color: #553c9a;
+}
+
+/* ------------------------------------------------------------------
+  7. 表格 (Table)
+  ------------------------------------------------------------------ */
 table {
-  border-radius: var(--radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 40px 0;
+  border-radius: var(--radius-md);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.03), var(--shadow-sm);
 }
 
 th {
-  background: hsla(var(--theme-hue), 70%, 45%, 0.8);
-  color: white;
-  padding: 10px;
+  background: #f7fafc;
+  color: var(--text-heading);
+  font-weight: 700;
+  padding: 16px 24px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 td {
+  padding: 16px 24px;
   background: white;
-  padding: 10px;
+  border-bottom: 1px solid #f1f5f9;
+  color: var(--text-secondary);
+  transition: background 0.2s;
 }
 
-/*页脚  */
-.app-footer {
-  margin-top: 40px;
-  padding-top: 25px;
-  color: var(--text-light);
-  font-size: 0.9em;
+/* 表格行悬浮效果 */
+tr:hover td {
+  background: #fbfdff;
+}
+
+/* ------------------------------------------------------------------
+  8. 滚动条美化 (Webkit)
+  ------------------------------------------------------------------ */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* 移动端适配修正 */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        margin: 0;
+        height: 100vh;
+        border-radius: 0;
+        left: -300px;
+    }
+    
+    .markdown-section {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 30px 20px;
+    }
+
+    body {
+        /* 移动端去除顶部条，避免视觉干扰 */
+        background-image: none; 
+    }
 }
