@@ -12,4 +12,5 @@
 * [讲师招募](lecture-recruitment)
 * [基础知识库](knowledge_base)
   * [IDE安装](knowledge_base/IDE.md)
+  * [一些考试中出现的知识点](knowledge_base/midexam.md)
 * [后记](afterword/README.md)
