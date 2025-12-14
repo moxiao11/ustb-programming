@@ -5,6 +5,7 @@
     * [Week 7](<exercise/cg solution/Week 7.md>)
     * [Week 8](<exercise/cg solution/Week 8.md>)
     * [Week 9](<exercise/cg solution/Week 9.md>)
+    * [Week 10](<exercise/cg solution/Week 10.md>)
   * [知识总结](exercise/knowledge.md)
   * [关键题解](exercise/key_problems.md)
   * [额外练习题](exercise/extra_problems.md)

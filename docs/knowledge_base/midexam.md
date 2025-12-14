@@ -1,6 +1,4 @@
 ## 如何去计算一个数二进制里面有几个1
-
-
 解法一:
 
 这个解法应该是考场上能想到的一个解法，就是与1取与，然后一直右移
@@ -20,7 +18,7 @@ int main() {
     int n ; cin >> n ;
     int res= 0 ;
     for (int i = 0 ; i< n ; i++ ) {
-        int a ; cin >>a  ;
+        int a ; cin >> a  ;
         res += count(a) ; 
     }
     cout << res << " " << (res % 2) << endl; 
