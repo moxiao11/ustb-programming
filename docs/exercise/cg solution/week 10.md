@@ -156,3 +156,57 @@ int main() {
     return 0;
 }
 ```
+
+## 第十周-编程题-13.按字母顺序输出城市名清单
+
+其实本质上还是一个简单的排序算法，只不过是按字符串大小
+
+但这里介绍一下strcmp(const char* s1 , const char* s2)是如何比大小的
+(**逐个字符比较 ASCII 码值**)
+
+比较流程：
+
+**从第一个字符开始比** 
+
+ * 如果字符相同 → 比下一个
+
+ * 如果不同 → 谁的 ASCII 小，谁就小
+
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    // 动态申请 string 数组
+    string *city = new string[n];
+
+    // 输入城市名
+    for (int i = 0; i < n; i++) {
+        cin >> city[i];
+    }
+
+    // 冒泡排序（按字母 / 拼音顺序）
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (city[j] > city[j + 1]) {
+                string temp = city[j];
+                city[j] = city[j + 1];
+                city[j + 1] = temp;
+            }
+        }
+    }
+
+    // 输出排序后的城市名
+    for (int i = 0; i < n; i++) {
+        cout << city[i] << endl;
+    }
+
+    delete[] city;
+    return 0;
+}
+
+```
