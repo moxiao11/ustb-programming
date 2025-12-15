@@ -7,6 +7,7 @@
     * [Week 9](<exercise/cg solution/Week 9.md>)
     * [Week 10](<exercise/cg solution/week 10.md>)
     * [Week 11](<exercise/cg solution/Week 11.md>)
+    * [Week 12](<exercise/cg solution/Week 12.md>)
   * [知识总结](exercise/knowledge.md)
 * [基础知识库](knowledge_base)
   * [IDE安装](knowledge_base/IDE.md)
