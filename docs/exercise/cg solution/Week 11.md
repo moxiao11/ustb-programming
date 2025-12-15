@@ -33,8 +33,7 @@ int main() {
 
 
 
-## 第十一周-编程题-3.桶排序
-
+## 第十一周-编程题-4.荷兰国旗问题
 有关strtok分割的做法可以看看
 * strtok(str, delim);   // 第一次
 * strtok(NULL, delim);  // 之后
@@ -127,6 +126,60 @@ int main() {
     for (int i = 0; i < white; i++) cout << "White ";
     for (int i = 0; i < blue; i++) cout << "Blue ";
 
+    return 0;
+}
+```
+
+
+## 第十一周-编程题-10.蛇形填数
+
+蛇形填数一个比较重要的点就是，定义dx和dy来进行方向的转移，这是探索一个二维空间的时候比较有用的方法，
+
+```C++
+#include <iostream>
+#include <iomanip>
+#include <vector>
+using namespace std;
+const int N = 1010 ;
+int matrix[N][N] ;
+int main() {
+    int n;
+    cin >> n;
+    
+    
+    // 定义四个方向：右、下、左、上
+    int dx[4] = {0, 1, 0, -1};  // 行方向
+    int dy[4] = {1, 0, -1, 0};  // 列方向
+    
+    int x = 0, y = n - 1;  // 起始位置：第一行最后一列
+    int direction = 0;     // 起始方向：右
+    
+    for (int i = 1; i <= n * n; i++) {
+        matrix[x][y] = i;
+        
+        // 计算下一个位置
+        int nextX = x + dx[direction];
+        int nextY = y + dy[direction];
+        
+        // 如果下一个位置超出边界或者已经被填充，则改变方向
+        if (nextX < 0 || nextX >= n || nextY < 0 || nextY >= n || matrix[nextX][nextY] != 0) {
+            direction = (direction + 1) % 4;  // 改变方向（循环）
+            nextX = x + dx[direction];
+            nextY = y + dy[direction];
+        }
+        
+        x = nextX;
+        y = nextY;
+    }
+    
+    // 输出结果
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << setw(4) << matrix[i][j];
+        }
+        cout << endl;
+    }
+    
     return 0;
 }
 ```
